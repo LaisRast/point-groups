@@ -1,0 +1,220 @@
+== classifying TxT ==
+
+## generating group
+Elapsed time: 3.329632520675659 seconds
+group order: 288
+
+## computing subgroups
+Elapsed time: 2.656764268875122 seconds
+636 subgroups in total
+339 subgroups of them contain (-1,-1)
+subgroup orders: [12, 24, 96, 288]
+multiplicities:  [(12, 24), (24, 24), (96, 2), (288, 1)]
+
+## computing achiral extensions
+Elapsed time: 46.488399267196655 seconds
+#catalog chiral:
+TxT 24x  order  12
+TxT 24x  order  24
+TxT  2x  order  96
+TxT  1x  order 288
+
+#catalog achiral:
+TxT 12x  order  24 *[1,1]
+TxT 12x  order  24 *[1,-1]
+TxT 12x  order  24 *[1,1]
+TxT 12x  order  24 *[1,1]
+TxT 12x  order  48 *[1,1]
+TxT 12x  order  48 *[1,1]
+TxT  1x  order 192 *[1,1]
+TxT  3x  order 192 *[1,1]
+TxT  1x  order 576 *[1,1]
+
+## check duplications chiral
+# checking group fingerprint: 0|0:2 1|1/3:16 1|1/2:6
+order: 24
+number of groups: 24
+identical test done
+isomophism test done. 23 checks were performed
+gr_in_cat_index1 -> gr_in_cat_index0 : conjugation by [i, 1]
+gr_in_cat_index2 -> gr_in_cat_index0 : conjugation by [j, 1]
+gr_in_cat_index3 -> gr_in_cat_index0 : conjugation by [k, 1]
+gr_in_cat_index4 -> gr_in_cat_index0 : conjugation by [1 + i - j + k, 1]
+gr_in_cat_index5 -> gr_in_cat_index0 : conjugation by [1 - i + j + k, 1]
+gr_in_cat_index6 -> gr_in_cat_index0 : conjugation by [1 + i + j + k, 1]
+gr_in_cat_index7 -> gr_in_cat_index0 : conjugation by [1 - i + j - k, 1]
+gr_in_cat_index8 -> gr_in_cat_index0 : conjugation by [1 + i - j - k, 1]
+gr_in_cat_index9 -> gr_in_cat_index0 : conjugation by [1 - i - j + k, 1]
+gr_in_cat_index10 -> gr_in_cat_index0 : conjugation by [1 + i + j - k, 1]
+gr_in_cat_index11 -> gr_in_cat_index0 : conjugation by [1 - i - j - k, 1]
+gr_in_cat_index12 -> gr_in_cat_index0 : conjugation by [1 - i, 1]
+gr_in_cat_index13 -> gr_in_cat_index0 : conjugation by [1 + i, 1]
+gr_in_cat_index14 -> gr_in_cat_index0 : conjugation by [j - k, 1]
+gr_in_cat_index15 -> gr_in_cat_index0 : conjugation by [j + k, 1]
+gr_in_cat_index16 -> gr_in_cat_index0 : conjugation by [1 + k, 1]
+gr_in_cat_index17 -> gr_in_cat_index0 : conjugation by [i - j, 1]
+gr_in_cat_index18 -> gr_in_cat_index0 : conjugation by [i + k, 1]
+gr_in_cat_index19 -> gr_in_cat_index0 : conjugation by [1 + j, 1]
+gr_in_cat_index20 -> gr_in_cat_index0 : conjugation by [i - k, 1]
+gr_in_cat_index21 -> gr_in_cat_index0 : conjugation by [1 - j, 1]
+gr_in_cat_index22 -> gr_in_cat_index0 : conjugation by [1 - k, 1]
+gr_in_cat_index23 -> gr_in_cat_index0 : conjugation by [i + j, 1]
+conjugacy test done. 23 checks were performed
+# checking group fingerprint: 0|0:2 0|1:2 1|1/3:16 1|2/3:16 1|1/2:12
+order: 48
+number of groups: 24
+identical test done
+isomophism test done. 23 checks were performed
+gr_in_cat_index1 -> gr_in_cat_index0 : conjugation by [k, 1]
+gr_in_cat_index2 -> gr_in_cat_index0 : conjugation by [j, 1]
+gr_in_cat_index3 -> gr_in_cat_index0 : conjugation by [i, 1]
+gr_in_cat_index4 -> gr_in_cat_index0 : conjugation by [1 + i + j + k, 1]
+gr_in_cat_index5 -> gr_in_cat_index0 : conjugation by [1 - i + j - k, 1]
+gr_in_cat_index6 -> gr_in_cat_index0 : conjugation by [1 + i - j - k, 1]
+gr_in_cat_index7 -> gr_in_cat_index0 : conjugation by [1 - i - j + k, 1]
+gr_in_cat_index8 -> gr_in_cat_index0 : conjugation by [1 - i - j - k, 1]
+gr_in_cat_index9 -> gr_in_cat_index0 : conjugation by [1 - i + j + k, 1]
+gr_in_cat_index10 -> gr_in_cat_index0 : conjugation by [1 + i + j - k, 1]
+gr_in_cat_index11 -> gr_in_cat_index0 : conjugation by [1 + i - j + k, 1]
+gr_in_cat_index12 -> gr_in_cat_index0 : conjugation by [j - k, 1]
+gr_in_cat_index13 -> gr_in_cat_index0 : conjugation by [1 - i, 1]
+gr_in_cat_index14 -> gr_in_cat_index0 : conjugation by [j + k, 1]
+gr_in_cat_index15 -> gr_in_cat_index0 : conjugation by [1 + i, 1]
+gr_in_cat_index16 -> gr_in_cat_index0 : conjugation by [i - k, 1]
+gr_in_cat_index17 -> gr_in_cat_index0 : conjugation by [i + k, 1]
+gr_in_cat_index18 -> gr_in_cat_index0 : conjugation by [1 + j, 1]
+gr_in_cat_index19 -> gr_in_cat_index0 : conjugation by [1 - j, 1]
+gr_in_cat_index20 -> gr_in_cat_index0 : conjugation by [i - j, 1]
+gr_in_cat_index21 -> gr_in_cat_index0 : conjugation by [1 + k, 1]
+gr_in_cat_index22 -> gr_in_cat_index0 : conjugation by [1 - k, 1]
+gr_in_cat_index23 -> gr_in_cat_index0 : conjugation by [i + j, 1]
+conjugacy test done. 23 checks were performed
+# checking group fingerprint: 0|0:2 0|1/2:12 0|1:2 1|1/3:64 1|2/3:64 1|1/2:36 1|2/2:12
+order: 192
+number of groups: 2
+identical test done
+isomophism test done. 1 checks were performed
+gr_in_cat_index1 -> gr_in_cat_index0 : conjugation by [i + j, 1]
+conjugacy test done. 1 checks were performed
+duplication check finished. 50 checks were performed.
+Elapsed time: 21.289459943771362 seconds
+
+## conjugations found for all the chiral groups
+
+## check duplications achiral
+# checking group fingerprint: 0|0:2 1|1/3:16 1|1/2:6 *0:12 *1/2:12
+order: 48
+number of groups: 12
+identical test done
+isomophism test done. 11 checks were performed
+gr_in_cat_index1 -> gr_in_cat_index0 : conjugation by [i, 1]
+gr_in_cat_index2 -> gr_in_cat_index0 : conjugation by [j, 1]
+gr_in_cat_index3 -> gr_in_cat_index0 : conjugation by [k, 1]
+gr_in_cat_index4 -> gr_in_cat_index0 : conjugation by [1 + i - j + k, 1]
+gr_in_cat_index5 -> gr_in_cat_index0 : conjugation by [1 - i + j + k, 1]
+gr_in_cat_index6 -> gr_in_cat_index0 : conjugation by [1 + i + j + k, 1]
+gr_in_cat_index7 -> gr_in_cat_index0 : conjugation by [1 - i + j - k, 1]
+gr_in_cat_index8 -> gr_in_cat_index0 : conjugation by [1 + i - j - k, 1]
+gr_in_cat_index9 -> gr_in_cat_index0 : conjugation by [1 - i - j + k, 1]
+gr_in_cat_index10 -> gr_in_cat_index0 : conjugation by [1 + i + j - k, 1]
+gr_in_cat_index11 -> gr_in_cat_index0 : conjugation by [1 - i - j - k, 1]
+conjugacy test done. 11 checks were performed
+# checking group fingerprint: 0|0:2 1|1/3:16 1|1/2:6 *1/2:12 *1:12
+order: 48
+number of groups: 12
+identical test done
+isomophism test done. 11 checks were performed
+gr_in_cat_index1 -> gr_in_cat_index0 : conjugation by [i, 1]
+gr_in_cat_index2 -> gr_in_cat_index0 : conjugation by [j, 1]
+gr_in_cat_index3 -> gr_in_cat_index0 : conjugation by [k, 1]
+gr_in_cat_index4 -> gr_in_cat_index0 : conjugation by [1 + i - j + k, 1]
+gr_in_cat_index5 -> gr_in_cat_index0 : conjugation by [1 - i + j + k, 1]
+gr_in_cat_index6 -> gr_in_cat_index0 : conjugation by [1 + i + j + k, 1]
+gr_in_cat_index7 -> gr_in_cat_index0 : conjugation by [1 - i + j - k, 1]
+gr_in_cat_index8 -> gr_in_cat_index0 : conjugation by [1 + i - j - k, 1]
+gr_in_cat_index9 -> gr_in_cat_index0 : conjugation by [1 - i - j + k, 1]
+gr_in_cat_index10 -> gr_in_cat_index0 : conjugation by [1 + i + j - k, 1]
+gr_in_cat_index11 -> gr_in_cat_index0 : conjugation by [1 - i - j - k, 1]
+conjugacy test done. 11 checks were performed
+# checking group fingerprint: 0|0:2 1|1/3:16 1|1/2:6 *0:6 *1/3:16 *1:2
+order: 48
+number of groups: 12
+identical test done
+isomophism test done. 11 checks were performed
+gr_in_cat_index1 -> gr_in_cat_index0 : conjugation by [i, 1]
+gr_in_cat_index2 -> gr_in_cat_index0 : conjugation by [k, 1]
+gr_in_cat_index3 -> gr_in_cat_index0 : conjugation by [j, 1]
+gr_in_cat_index4 -> gr_in_cat_index0 : conjugation by [1 + i + j + k, 1]
+gr_in_cat_index5 -> gr_in_cat_index0 : conjugation by [1 - i + j - k, 1]
+gr_in_cat_index6 -> gr_in_cat_index0 : conjugation by [1 - i - j - k, 1]
+gr_in_cat_index7 -> gr_in_cat_index0 : conjugation by [1 + i + j - k, 1]
+gr_in_cat_index8 -> gr_in_cat_index0 : conjugation by [1 - i + j + k, 1]
+gr_in_cat_index9 -> gr_in_cat_index0 : conjugation by [1 + i - j + k, 1]
+gr_in_cat_index10 -> gr_in_cat_index0 : conjugation by [1 + i - j - k, 1]
+gr_in_cat_index11 -> gr_in_cat_index0 : conjugation by [1 - i - j + k, 1]
+conjugacy test done. 11 checks were performed
+# checking group fingerprint: 0|0:2 1|1/3:16 1|1/2:6 *0:2 *2/3:16 *1:6
+order: 48
+number of groups: 12
+identical test done
+isomophism test done. 11 checks were performed
+gr_in_cat_index1 -> gr_in_cat_index0 : conjugation by [i, 1]
+gr_in_cat_index2 -> gr_in_cat_index0 : conjugation by [k, 1]
+gr_in_cat_index3 -> gr_in_cat_index0 : conjugation by [j, 1]
+gr_in_cat_index4 -> gr_in_cat_index0 : conjugation by [1 + i + j + k, 1]
+gr_in_cat_index5 -> gr_in_cat_index0 : conjugation by [1 - i + j - k, 1]
+gr_in_cat_index6 -> gr_in_cat_index0 : conjugation by [1 - i - j - k, 1]
+gr_in_cat_index7 -> gr_in_cat_index0 : conjugation by [1 + i + j - k, 1]
+gr_in_cat_index8 -> gr_in_cat_index0 : conjugation by [1 - i + j + k, 1]
+gr_in_cat_index9 -> gr_in_cat_index0 : conjugation by [1 + i - j + k, 1]
+gr_in_cat_index10 -> gr_in_cat_index0 : conjugation by [1 + i - j - k, 1]
+gr_in_cat_index11 -> gr_in_cat_index0 : conjugation by [1 - i - j + k, 1]
+conjugacy test done. 11 checks were performed
+# checking group fingerprint: 0|0:2 0|1:2 1|1/3:16 1|2/3:16 1|1/2:12 *0:8 *1/3:16 *2/3:16 *1:8
+order: 96
+number of groups: 12
+identical test done
+isomophism test done. 11 checks were performed
+gr_in_cat_index1 -> gr_in_cat_index0 : conjugation by [k, 1]
+gr_in_cat_index2 -> gr_in_cat_index0 : conjugation by [j, 1]
+gr_in_cat_index3 -> gr_in_cat_index0 : conjugation by [i, 1]
+gr_in_cat_index4 -> gr_in_cat_index0 : conjugation by [1 + i + j + k, 1]
+gr_in_cat_index5 -> gr_in_cat_index0 : conjugation by [1 - i + j - k, 1]
+gr_in_cat_index6 -> gr_in_cat_index0 : conjugation by [1 + i - j - k, 1]
+gr_in_cat_index7 -> gr_in_cat_index0 : conjugation by [1 - i - j + k, 1]
+gr_in_cat_index8 -> gr_in_cat_index0 : conjugation by [1 - i - j - k, 1]
+gr_in_cat_index9 -> gr_in_cat_index0 : conjugation by [1 - i + j + k, 1]
+gr_in_cat_index10 -> gr_in_cat_index0 : conjugation by [1 + i + j - k, 1]
+gr_in_cat_index11 -> gr_in_cat_index0 : conjugation by [1 + i - j + k, 1]
+conjugacy test done. 11 checks were performed
+# checking group fingerprint: 0|0:2 0|1:2 1|1/3:16 1|2/3:16 1|1/2:12 *0:12 *1/2:24 *1:12
+order: 96
+number of groups: 12
+identical test done
+isomophism test done. 11 checks were performed
+gr_in_cat_index1 -> gr_in_cat_index0 : conjugation by [k, 1]
+gr_in_cat_index2 -> gr_in_cat_index0 : conjugation by [i, 1]
+gr_in_cat_index3 -> gr_in_cat_index0 : conjugation by [j, 1]
+gr_in_cat_index4 -> gr_in_cat_index0 : conjugation by [1 - i - j - k, 1]
+gr_in_cat_index5 -> gr_in_cat_index0 : conjugation by [1 - i + j + k, 1]
+gr_in_cat_index6 -> gr_in_cat_index0 : conjugation by [1 + i - j + k, 1]
+gr_in_cat_index7 -> gr_in_cat_index0 : conjugation by [1 + i + j - k, 1]
+gr_in_cat_index8 -> gr_in_cat_index0 : conjugation by [1 + i + j + k, 1]
+gr_in_cat_index9 -> gr_in_cat_index0 : conjugation by [1 - i + j - k, 1]
+gr_in_cat_index10 -> gr_in_cat_index0 : conjugation by [1 - i - j + k, 1]
+gr_in_cat_index11 -> gr_in_cat_index0 : conjugation by [1 + i - j - k, 1]
+conjugacy test done. 11 checks were performed
+# checking group fingerprint: 0|0:2 0|1/2:12 0|1:2 1|1/3:64 1|2/3:64 1|1/2:36 1|2/2:12 *0:8 *1/3:64 *1/2:48 *2/3:64 *1:8
+order: 384
+number of groups: 3
+identical test done
+isomophism test done. 2 checks were performed
+gr_in_cat_index1 -> gr_in_cat_index0 : conjugation by [1 + i + j + k, 1]
+gr_in_cat_index2 -> gr_in_cat_index0 : conjugation by [1 - i + j + k, 1]
+conjugacy test done. 2 checks were performed
+duplication check finished. 75 checks were performed.
+Elapsed time: 237.64124393463135 seconds
+
+## conjugations found for all the achiral groups
+
+## TOTAL TIME 311.415694s

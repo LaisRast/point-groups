@@ -1,8 +1,8 @@
 # 4-Dimensional Point Groups
 
 This repository contains scripts written in [Sage](https://www.sagemath.org/)
-for the forthcoming article Towards a Geometric Understanding of the 4-Dimensional
-Point Groups by Laith Rastanawi and Günter Rote.
+for the article [Towards a Geometric Understanding of the 4-Dimensional
+Point Groups](http://arxiv.org/abs/2205.04965) by Laith Rastanawi and Günter Rote.
 
 ## Overview
 

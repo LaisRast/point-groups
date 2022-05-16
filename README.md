@@ -71,6 +71,14 @@ Point Groups](http://arxiv.org/abs/2205.04965) by Laith Rastanawi and Günter Ro
   Generates order catalogs and stores them in `precomputed/` as json files.
   The keys are orders of the groups.
   The values are the names of the groups.
+  
+* `generate_oeis_sequences.sage`:
+  Generates the following two sequences to be used in OEIS:
+  * number of 4-dimensional point groups of order n, and
+  * number of 4-dimensional chiral point groups of order n.
+  
+  The precomputed catalogs are generated using the main 
+  function in `counting_groups.sage` with `orderbound = 10000`.
  
 * `classify_AxA.sage`:
   Classifies all subgroups of $\pm[A\times A]$, 
@@ -114,6 +122,7 @@ Point Groups](http://arxiv.org/abs/2205.04965) by Laith Rastanawi and Günter Ro
     Pyramidal and prismatic.
   * `tab_axial_hybrid.tex`:
     Hybrid groups with methods.
+    
   This files loads `table_polyhedral_groups.sage` to generate a catalog.
 
 * `polyhedral_and_axial_lists.sage`:

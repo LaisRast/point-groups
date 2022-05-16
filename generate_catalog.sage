@@ -56,5 +56,5 @@ def main():
             json.dump(catalog, f, indent=4)
         print()
 
-if __name__ == "__main__":
+if __name__ == "__main__" and "__file__" in globals():
     main()

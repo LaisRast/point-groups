@@ -28,13 +28,12 @@ print(f"elapsed time for loading: {time()-start_time}s", file=file, flush=True)
 
 ## increase GAP pre-set memory limit
 if sage.misc.banner.require_version(major=9, minor=3):
-  # sage.interfaces.gap.gap_cmd = 'gap -r -o 24G '
-  sage.interfaces.gap.gap_cmd = 'gap -r -o 50G '
+  sage.interfaces.gap.gap_cmd = 'gap -r -o 256G '
 else:
     # The following works in sage 9.2, but no longer in sage 9.5:
     from sage.interfaces.gap import set_gap_memory_pool_size, get_gap_memory_pool_size
     print(f"GAP default memory pool size {get_gap_memory_pool_size()}", file=file, flush=True)
-    set_gap_memory_pool_size(50* 10**9)
+    set_gap_memory_pool_size(256* 10**9)
     print(f"GAP adjusted memory pool size {get_gap_memory_pool_size()}", file=file, flush=True)
 
 ## ensure enough memory for GAP
